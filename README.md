@@ -16,6 +16,10 @@ j.monitorContendedEnterRequest(e -> {
 
 j.run();
 ```
+```test
+ant test
+```
+
 
 For more, see the included [examples](src/example/java/org/jdiscript/example).
 

@@ -787,8 +787,6 @@ public class JDIScript {
      *
      * @param thread
      * @param handler
-     * @throws IncompatibleThreadStateException
-     * @throws AbsentInformationException
      */
     public void onCurrentMethodExit(final ThreadReference thread, final OnBreakpoint handler) throws IncompatibleThreadStateException, AbsentInformationException {
         List<Location> locs = thread.frame(0).location().method().allLineLocations();
